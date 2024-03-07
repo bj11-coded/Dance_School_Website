@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--var-button-color);
+    color:var(--var-text-color);
+    /* text-align: center; */
+    /* filter: blur(3px); */
+   
+}
+
+
+:root {
+    /* hex code  */
+    /* --var-background-color: #EED3D9; */
+    --var-button-color:#F4538A;
+    --var-text-color: #000000;
+    --var-white-color: #ffff;
+    --var-gold-color: #EFD595;
+}
+h1{
+    text-align: center;
+}
+
+h2,h3, p, a ,span , strong, article ,li{ 
+    background-color: var(--var-white-color);
+    text-decoration: none;
+    list-style: none;
+}
+
+h2{
+    color:var(--var-gold-color);
+}
+
+.heading {
+    color:var(--var-gold-color);
+    padding: 30px 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+} 
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: (5px); */
+    /* filter:saturate(70%); */
+    
+}
+
+.box:hover{
+    filter:none;
+}
+
+.box .content{
+    height: 750px;
+    width: 600px;
+    background-color: var(--var-white-color) !important;
+    padding: 20px; 
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+   
+}
+
+.box .content .content-head{
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-color: var(--var-white-color) !important;
+}
+
+.photo {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.photo img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
+
+article {
+    margin:40px 40px 20px 40px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+article strong{
+    color: var(--var-button-color);
+    /* text-shadow: 0px 0px #000; */
+    line-height: 1.5;
+    
+}
+article strong span{
+    color: var(--var-gold-color);
+}
+
+.list-detail li {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color:var(--var-button-color)
+}
+
+.line{
+    width: 89%;
+    height: 5px;
+    background-color: var(--var-gold-color);
+    margin-bottom: 10px;
+    border: none;
+    opacity: 0.4;
+}
+
+.propriter{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.propriter p{
+    font-size: 20px;
+    color:var(--var-gold-color);
+    font-weight: 600;
+}
+
+.propriter p span {
+    color:var(--var-button-color)
+}
+

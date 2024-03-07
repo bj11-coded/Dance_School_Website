@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    background-color: blueviolet;
+}
+
+ul, li ,p{
+    background-color: transparent;
+    color: white;
+    list-style: none;
+}
+
+.card {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.card .card-body{
+    height: 500px;
+    width: 400px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card-body img{
+    padding-bottom: 20px;
+    height: 250px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.card-body h1{
+    background-color: bisque;
+    padding-bottom: 20px;
+}
+
+.card-body article p{
+    background-color: bisque;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.card-body button{
+    padding: 10px 20px 10px 20px;
+    color:whitesmoke;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.box , .card-two , .cardtwo-body , p {
+    background-color: transparent;
+}
+
+.box {
+    height: 500px;
+    width: 400px;
+    margin: 100px;
+    /* background-color: aliceblue; */
+    /* background-color: white; */
+    background-image: url(../img/feat-the-design-yard-1024x683.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 20px;
+    filter: blur(3px);
+    
+}
+
+.cardtwo-body p:hover{
+    filter: blur(0);
+}
+
+.cardtwo-body p{
+    font-size: 64px;
+    filter: none;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color:transparent;
+    padding:20px;
+    color: white;
+}
+
+
+
+/* identity card */
+
+.idCard{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;    
+}
+
+.idCard .idCard-body{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    height: 600px;  
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 1px 8px 8px 1px #464545 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+.idCard .idCard-body button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    border: none;
+}
+
+.idCard .idCard-body h2{
+    font-style: italic;
+    background-color: transparent;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    ;
+}
+
+.avatar {
+    background-color: transparent;
+}
+.idCard .idCard-body .avatar img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.idCard .idCard-body .article{
+    background-color: transparent;
+    text-align: center;
+}
+.idCard .idCard-body .article p{
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.idCard .idCard-body .article span{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+.idCard .idCard-body .idCard-address{
+    width: 100%;
+    position: absolute;
+    padding: 10px 0 10px 0;
+    left: 0;
+    bottom:0;
+    border-radius: 12px;
+}
+
+.idCard .idCard-body .idCard-address ul{
+    padding: 20px;
+}
+
+.idCard .idCard-body .idCard-address ul li{
+    padding-top:6px;
+    display: flex;
+    gap: 6rem;
+}
+
+.idCard .idCard-body .idCard-address ul li .detail{
+    width: 30%;
+    color: white;
+}
+
+
