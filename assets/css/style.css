@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600&display=swap');
+
+
+*{
+    /* background-color: purple; */
+    color:black;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    text-align: center;
+  
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-transform: lowercase;
+}
+p{
+/* color: blue ;s */
+/* background-color:aliceblue; */
+}
+
+#name:active {
+    color: green;
+}
+
+
+.mainOne:hover{
+    color: wheat;
+    padding: 20px;
+    background-color: rgb(71, 9, 32);
+    
+}
+
+.mainOne >.spanOne{
+    background-color: aqua;
+    font-size: 40px;
+    padding: 20px;
+    
+}
+
+.mainOne  #strongOne{
+background-color: aqua;
+font-size: 112px;
+padding: 20px;
+}
+
+.mainOne:before{
+    content: " ok ";
+}
+
+
+a:visited{
+    color: orange;
+}
+
+a:link{
+    color: green;
+}
+a:before{
+    content:' click on ';
+}
+
+a:after{
+    content:' to search';
+}
+
+p:first-letter{
+  font-size: 50px;  
+}
+
+/* p:first-child{
+    color:green;
+} */
+p:last-child{
+    color: red;
+}
+
+ p:first-child + p:first-line{
+    font-size: 30px;
+    color:wheat;
+}
+
+li:nth-last-child(even){
+    color: white;
+}
+
+li::marker{
+    color:pink;
+}
+
+.tara{
+    background-image: url(../img/dana-luig-u5dCAaQ6JsA-unsplash.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+.pluto, .neptune, .uranus, .saturn, .jupiter, .mars, .earth, .venus, .mercury, .sun {
+    padding: 30px;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pluto {
+    border:2px soliddarkcyan;
+    height: 1200px;
+    width: 1200px;
+    
+    
+}
+
+.pluto .neptune{
+    border:2px solid bisque;
+    height: 1100px;
+    width: 1100px;
+}
+
+.pluto .neptune .uranus{
+    border:2px solid lightblue;
+    width: 900px;
+    height: 900px;
+}
+
+.pluto .neptune .uranus .saturn{
+    border:2px solid green;
+    width: 800px;
+    height: 800px;
+}
+
+.pluto .neptune .uranus .saturn .jupiter{
+    border:2px solid blueviolet;
+    width: 700px;
+    height: 700px;
+}
+
+.pluto .neptune .uranus .saturn .jupiter .mars{
+    border:2px solid lightcoral;
+    width: 600px;
+    height: 600px;
+}
+
+.pluto .neptune .uranus .saturn .jupiter .mars .earth{
+    border:2px solid lightskyblue;
+    width: 500px;
+    height: 500px;
+}
+
+.pluto .neptune .uranus .saturn .jupiter .mars .earth .venus{
+    border:2px solid pink;
+    width: 400px;
+    height: 400px;
+}
+
+.pluto .neptune .uranus .saturn .jupiter .mars .earth .venus .mercury{
+    border:2px solid lightslategray;
+    width: 300px;
+    height: 300px;
+}
+
+.pluto .neptune .uranus .saturn .jupiter .mars .earth .venus .mercury .sun{
+    background-color: red !important;
+    width: 200px;
+    height: 200px;
+}
+
+.paru {
+    font-size: 3rem;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Noto Serif JP", serif;
+    line-height: 4rem;
+}
+
+ .para  p{
+    font-size: 3rem; 
+    font-weight: 300;
+    font-style: oblique;
+    font-family: "Noto Serif JP", serif;
+    line-height: 10rem;
+    /* line-break: anywhere; */
+    text-align: justify;
+    text-decoration: none;  
+    text-transform: uppercase;
+    text-shadow:1px 2px #b95f5f;
+    text-wrap: wrap;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+        opacity: .2;
+}
+
+
+.box1{
+    margin:30px;
+    background-color: navy;
+    padding: 40px;
+    height: 400px;
+    position: relative;
+    
+}
+
+ .box2{
+    padding: 30px;
+    background-color: wheat;
+    height: 300px;
+    width: 800px;
+    z-index: -99;
+    position: absolute;
+
+}
+
+.boxes{
+    background-color: brown;
+    /* display: inline; */
+    /* display: block;
+    display: inline-block;
+    display: table; */
+    /* display: table-row; */
+    /* display: table-cell; */
+    /* display: flex; */
+    /* justify-content: space-evenly;
+       /* align-items: center;  */
+    /* flex-direction: column-reverse;  */
+    /* align-self: center; */
+/* flex-wrap: wrap; */
+    /* display: grid; */
+    /* display: inline-flex; */
+    /* display: inline-grid; */
+    /* display: none; */
+    height: 100vh;
+    width: auto;
+    position: relative;
+
+}
+
+.boxes , .div1,.div2, .div3, .div4, .div5, .div6{
+    padding: 40px; 
+    margin: 40px 30px 20px 30px;
+    color: aliceblue;
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: table; */
+    /* display: table-row; */
+    /* display: table-cell; */
+    /* display: flex; */
+    /* display: grid; */
+    /* display: inline-flex; */
+    /* display: inline-grid; */
+    /* display: none; */
+}
+
+.div1{
+    background-color: #b95f5f;
+    /* display: inline; */
+    /* position: fixed; */
+    /* top: 40%;
+    left: 40%; */
+    position: absolute;
+    /* left: 40px; */
+    right: 0;
+    /* bottom: 20px; */
+    top: 0;
+}
+.div2{
+    background-color: #664295;
+    /* order: 1; */
+    /* position: sticky;
+    top: 0; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.div3{
+    background-color: blueviolet;
+    position: absolute;
+    /* bottom:30px; */
+    /* z-index: -1; */
+
+}
+.div4{
+    background-color: lightcoral;
+    /* order: 2;
+    flex-grow: 2; */
+    position: absolute; 
+}
+.div5{
+    background-color: green;
+    position: absolute;
+    /* z-index: 99; */
+    bottom:50%;
+    right:45%;
+}
+.div6{
+    background-color: yellow;
+    /* flex-shrink: 2;s */
+    /* top: ; */
+    position: absolute;
+    /* z-index: -99; */
+    left: 0;
+    bottom:0;
+}
