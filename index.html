@@ -2,390 +2,128 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Html Learing </title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <style>
-    th,
-    td {
-      padding: 20px;
-      color: white;
-      background-color: green;
-      border: 1px solid whitesmoke;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Biju Dance School </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-  <h1> Heading tag in HTML </h1>
-  <p> there are only 6 tag in html for heading tag as we go down the tag the size of the text descreases</p>
-  <br>
-  <h1> Heaidng One </h1>
-  <h2> Heading two</h2>
-  <h3> Heading three</h3>
-  <h4> Heading four</h4>
-  <h5> Heading five </h5>
-  <h6> Heading six</h6>
-  <h7> heading seven</h7>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <ul>
+                    <li><i class="fa fa-location-dot"></i> &nbsp; tilottma-5, manigram </li>
+                    <li> <i class="fa fa-envelope"></i> &nbsp; bjtharu7@gmail.com</li>
+                    <li> <i class="fa fa-phone"></i> &nbsp; 9821430781</li>
+                </ul>
+                <ul>
+                    <li> <i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li> <i class="fa fa-x"></i></li>
+                </ul>
+            </div>
+
+        </div>
+        <nav>
+            <div class="container">
+                <picture>
+                    <img src="./assets/img/feat-the-design-yard-1024x683.jpg" alt="Logo">
+                </picture>
+                <ul>
+                    <li class="list">Home </li>
+                    <li class="list"> Service </li>
+                    <li class="list"> Prouct</li>
+                    <li class="list"> About </li>
+                    <li class="list"> Contact </li>
+                </ul>
+                <button>Join Now</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- body part -->
+
+    <section class="hero">
+        <div class="images">
+            <div class="overlay">
+                <div class="text">
+                    <article>
+                        <p> Wana Learn to Dance</p>
+                    </article>
+                    <button> join us</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="about">
+    <div class="containers">
+        <div class="about-header">
+            <h1>About Us</h1>
+        </div>
+        
+        <div class="about-body">
+            <div class="about-body-head">
+                Who we are 
+            </div>
+            <article>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cum soluta unde eaque cupiditate hic autem non totam quasi eos culpa repellendus repellat rerum, cumque at quos deserunt magni dignissimos.</p>
+                <button> Read More</button>
+            </article>
+            <picture>
+                <img src="./assets/img/cat.jpg" alt="cat image">
+            </picture>
+
+            
+        </div>
 
-  <hr>
-
-  <h1> Paragraph tag:</h1>
-
-  <p title="<p>"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt, fugiat in repudiandae porro
-    ex provident libero vero non consequuntur perspiciatis deserunt ab? Reiciendis soluta eveniet amet, sed illo
-    tempora!</p>
-
-  <hr title="<hr> tag is used to draw the line">
-  <h1> other Minor tags for formating </h1>
-
-  <u title="<u>"> underline using u as a tag </u> &nbsp; &nbsp;
-  <i title="<i>"> italic text using i as a tag</i> &nbsp; &nbsp;
-  <b title="<b>"> bold text using b tag</b> &nbsp; &nbsp;
-  H<sub title="<sub>">2</sub>SO &nbsp; &nbsp;
-  HNO<sup title="<sup>">e --</sup> &nbsp; &nbsp;
-  <br>
-  <br>
-
-  <center> this is a center tag </center>
-  <marquee behavior="alternate" direction="up" height="200" > this is moving tag</marquee>
-
-  <br>
-
-  <!--  this is comment -->
-
-  <mark title="Mark uses background color to highlight text" style="background-color: pink;"> This is a important
-    text</mark> &nbsp;
-
-  <del title="cross the text from the middle part in a horizontal line"> 18000</del> &nbsp; 12000 &nbsp;
-
-  <em title="it's  a copy of italic tag"> same as italic </em> &nbsp;
-
-  <ins title="it's a copy of underline tag"> same as underline</ins> &nbsp;
-
-  this text is <small title="small tag decreases the font size of text">smaller </small> in size &nbsp;
-
-  <strong title="strong tag is used for bold text">this text is bold</strong>
-
-
-  <hr>
-
-  <h1>Image Tag:</h1>
-
-  <img title="using the external link to image"
-    src="https://cdn.dribbble.com/users/2295726/screenshots/15739443/media/30debe25f01a97704a63e41867870eb3.png?resize=1200x900&vertical=center"
-    alt="logo" height="400" width="auto">
-  <img title="using the image from the file" src="./assets/img/coffee.png" alt="" height="300" width="auto">
-
-  <br>
-
-  <hr>
-  <h1>Anchor Tag:</h1>
-  <a title="using the https links" href="https://www.google.com"> Google</a> &nbsp;
-  <a title="using the path" href="./about.html" target="_blank"> About </a> &nbsp;
-  <a href="./service.html" target="_top"> Service </a> &nbsp;
-  <a title="to show the image without using the image by copying the image address"
-    href="https://cdn.dribbble.com/users/2295726/screenshots/15739443/media/30debe25f01a97704a63e41867870eb3.png?resize=1200x900&vertical=center">
-    Image</a> &nbsp;
-  <a href="https://www.facebook.com"> facebook</a>
-
-  <br>
-  <br>
-  <hr>
-
-  <h1> Video Embadding </h1>
-
-  <video autoplay controls height="300" width="auto">
-    <source src="" type="video/mp4">
-  </video>
-
-  <br>
-  <hr>
-
-  <h1> Table: </h1>
-
-  <table border="" style="border-collapse: collapse; width: 100%;">
-    <tr>
-      <th> S.N</th>
-      <th> Name </th>
-      <th> Class</th>
-    </tr>
-    <tr>
-      <td> 1 </td>
-      <td> bijay </td>
-      <td> bachelor</td>
-    </tr>
-  </table>
-
-  <br>
-  <br>
-
-  <table border="1" style="border-collapse: collapse; width: 100%;">
-    <tr>
-      <th rowspan="2">A</th>
-      <th>B</th>
-      <th>C</th>
-      <th>D</th>
-    </tr>
-    <tr>
-      <td colspan="3">E</td>
-    </tr>
-    <tr>
-      <td colspan="2" rowspan="2">F</td>
-      <td colspan="2">G</td>
-    </tr>
-    <tr>
-      <td colspan="2">H</td>
-    </tr>
-  </table>
-
-  <br>
-  <br>
-
-  <br>
-
-  <h1> Assignment: Table </h1>
-
-  <table border="1" style="border-collapse: collapse;width: 100%;">
-    <tr>
-      <th>A</th>
-      <th rowspan="2">C</th>
-      <th>D</th>
-      <th>E</th>
-      <th colspan="2">G</th>
-    </tr>
-    <tr>
-      <th>B</th>
-      <th colspan="2">F</th>
-      <th>H</th>
-      <th>I</th>
-    </tr>
-    <tr>
-      <th colspan="2" rowspan="2">J</th>
-      <th colspan="4">K</th>
-    </tr>
-    <tr>
-      <th rowspan="2" colspan="2">M</th>
-      <th colspan="2"> L </th>
-    </tr>
-    <tr>
-      <th rowspan="2">N</th>
-      <th rowspan="2">O</th>
-      <th>R</th>
-      <th>S</th>
-    </tr>
-    <tr>
-      <th rowspan="2" colspan="4">Q</th>
-    </tr>
-    <tr>
-      <th rowspan="2" colspan="2">P</th>
-    </tr>
-    <tr>
-      <th colspan="3">T</th>
-      <th>U</th>
-    </tr>
-
-  </table>
-
-
-  <br>
-  <hr>
-  <h1> list:</h1>
-
-  <strong> Unorder list</strong>
-  <ul title="ul denotes unorder list " type="circle">
-    <li>Bijay</li>
-    <li>Parmila</li>
-    <li>sarda</li>
-    <li>ram</li>
-  </ul>
-
-  <strong> Ordered List</strong>
-  <ol title="ol denotes order list " type="i">
-    <li>Bijay</li>
-    <li>Parmila</li>
-    <li>sarda</li>
-    <li>ram</li>
-  </ol>
-
-  <h4>Other lists</h4>
-
-  <dl title="Definition List as dl tag">
-    <dt title="define desciption type as dt tag"> Shopping</dt>
-    <dd title="define desciption data as dd tag"> - Shoes</dd>
-    <dd> - Shirt</dd>
-    <dd> - Formal Pant</dd>
-  </dl>
-
-
-  <br>
-  <hr>
-  <h1>iframe</h1>
-
-  <strong style="background-color: green;">iframe is used to embadde any video on the website</strong>
-  <br>
-
-  <iframe width="600" height="450" src="https://www.youtube.com/embed/L1Fk3vCf-B0?si=hzcp-DjELMP1P9DA"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6153.069854723451!2d151.2429477190638!3d-33.99804877558323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssydney%20beach!5e0!3m2!1sen!2snp!4v1708585152560!5m2!1sen!2snp"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-  <hr>
-  <h1> Some Other Elements:</h1>
-  <br>
-  <p style="background-color: green;"> this is a blockquote so that the text can be written with some gap</p>
-  <blockquote>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore maiores facere libero aperiam ad molestias
-    deserunt quam impedit corrupti? Ipsa perspiciatis expedita quidem quibusdam excepturi aspernatur sint magnam aliquam
-    eveniet.
-  </blockquote>
-
-
-  <div></div>
-
-  <hr>
-
-  <h1> Form:</h1>
-
-  <strong> Form is a submittion or collection of paticular data</strong>
-  <div></div>
-  <form action="./about.html" method="post">
-    <label for="name">First Name:</label>
-    <input type="text" name="name" placeholder="your first name">
-
-    <div></div>
-
-    <label for="email"> Email:</label>
-    <input type="email" name="email">
-
-    <br>
-
-    <label for="phone no "> Phone number:</label>
-    <input type="number" name="phone no" id="nmber">
-
-    <br>
-
-    <label for="website">Website : </label>
-    <input type="url" name="website" id="web">
-    <br>
-
-    <label for="gender">Gender: &nbsp; &nbsp;</label>
-    <input type="radio" name="gender" value="male" id="male">
-    <label for="male">Male</label>
-    <br>
-
-    <label for=""> password</label>
-    <input type="password" name="" id="">
-
-    <label for=""> Reset</label>
-    <input type="reset" value="">
-
-    <select name="country" id="country">
-      <option value="" selected> --- select a country ---</option>
-      <option value="USA"> USA</option>
-      <option value="CANADA"> Canda</option>
-      <option value="AUSTRILA"> Austrila</option>
-      <option value="UK"> UK</option>
-      <option value="india"> india</option>
-
-    </select>
-
-  </form>
-
-
-
-
-  <br>
-  <br>
-  <br>
-
-  <hr>
-
-  <h1>Assignment: form</h1>
-
-  <form action=" " method="post">
-    <label for=""> FName</label>
-    <input type="text">
-    &nbsp;&nbsp;&nbsp;&nbsp;
-
-    <label for=""> LName</label>
-    <input type="text">
-    <br><br>
-
-    <label for=""> Email</label>
-    <input type="email" name="Email" required>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-
-    <label for=""> Address</label>
-    <input type="text" name="Password" maxlength="10" minlength="10" required>
-    <br><br>
-
-    <label for="">Phone No. </label>
-    <input type="number" maxlength="10" minlength="10" required>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-
-    <label for=""> Date of birth</label> <strong style="color: red ;">*</strong>
-    <input type="date" required disabled>
-    <br><br>
-
-
-    <label for=""> Photo</label>
-    <input type="file">
-    &nbsp;&nbsp;&nbsp;&nbsp;
-
-    <label for=""> Gender</label>
-    <input type="radio"> male &nbsp;
-    <input type="radio"> female
-    <br><br>
-
-    <label for=""> </label>
-    <input type="reset" value="reset">
-    &nbsp;&nbsp;&nbsp;&nbsp;
-
-    <label for=""> </label>
-    <input type="submit" value="submit">
-    <br><br>
-  </form>
-
-
-  <!-- assignment -->
-
-  <br>
-  <hr>
-  <h1> Assignment: form & map</h1>
-
-  <div style="display: flex;">
-    <div>
-      <form action="">
-        <label for=""> full Name</label>
-        <input type="text" maxlength="10">
-        <br>
-        <label for="Email"> Email</label>
-        <input type="email" name="" id="">
-        <br>
-        <label for=""> Message:</label>
-        <br>
-        <textarea name="" id="" cols="10" rows="5" maxlength="10" minlength="10">
-      messages here...
-    </textarea>
-      </form>
     </div>
+    </section>
 
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.875073268851!2d83.43233654999999!3d27.68736015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1708671275643!5m2!1sen!2snp"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+
+    <section class="galary">
+        <form action="" method="post">
+            <!-- <label for=""> Name</label> -->
+            <input type="text" id="name" placeholder="your name">
+        </form>
+
+    </section>
+
+
+    <section class="our-team">
+        <div class="input-container">
+            <input placeholder="Enter text" class="input-field" type="text">
+            <label for="input-field" class="input-label">Enter text</label>
+            <!-- <span class="input-highlight"></span> -->
+          </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>Copyright &copy; 2021</p>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+    </script>
 </body>
 
 </html>
